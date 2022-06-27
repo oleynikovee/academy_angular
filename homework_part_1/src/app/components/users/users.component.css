@@ -1,13 +1,13 @@
 .users{
-    width:100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-row-gap:0.5em;
-    grid-column-gap:0.5em;
-    align-items: center;
-    padding-bottom: 0.5em;  
+  width:100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-row-gap:0.5em;
+  grid-column-gap:0.5em;
+  align-items: center;
+  padding-bottom: 0.5em;  
 }
 @media screen and (max-width:600px) {
     .users{
