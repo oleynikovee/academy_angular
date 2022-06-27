@@ -19,7 +19,7 @@ export class isChecked {
         this.allCheked$.next(state);
     }
     //ChangeCount->service,that get and set state of every click on checkbox
-	public changeCount(num:number) {
+	  public changeCount(num:number) {
    	    this.idOfChecked$.next(num); 
   	}
     //sortingType->service,that get and set type of sorting
