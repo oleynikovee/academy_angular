@@ -1,0 +1,11 @@
+<div class="controls">
+    <button class="select_all" (click)="selectAll()">Select ALL</button>
+    <button class="delete" (click)="deleteChecked()">Delete</button>
+    <select class="sorting" (change)="chooseSorting($event)">
+        <option value="none" selected>No sorted</option>
+        <option value="username">Username</option>
+        <option value="lastname">LastName</option>
+    </select>
+    <input type="text" placeholder="Search smth.." class="search" (keyup)="findUser($event)">
+</div>
+<hr>

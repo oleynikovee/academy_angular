@@ -1,0 +1,56 @@
+[{
+    "id":0,
+    "firstname":"Ada",
+    "secondname":"Smith",
+    "email":"adasmith@zyx.com",
+    "phone":"+97624578"
+},
+{
+    "id":1,
+    "firstname":"Lida",
+    "secondname":"Brok",
+    "email":"lidabrok@zyx.com",
+    "phone":"+76543567"
+},
+{
+    "id":2,
+    "firstname":"Katya",
+    "secondname":"Romanova",
+    "email":"katyaromn@zyx.com",
+    "phone":"+09874423"
+},
+{
+    "id":3,
+    "firstname":"Roma",
+    "secondname":"Bush",
+    "email":"romabush@zyx.com",
+    "phone":"+27463345"
+},
+{
+    "id":4,
+    "firstname":"Maks",
+    "secondname":"Yarn",
+    "email":"maksya@zyx.com",
+    "phone":"+12345678"
+},
+{
+    "id":5,
+    "firstname":"Aleksey",
+    "secondname":"Minskiy",
+    "email":"aleksmin@zyx.com",
+    "phone":"+22345214"
+},
+{
+    "id":6,
+    "firstname":"Dana",
+    "secondname":"Leymond",
+    "email":"dley@zyx.com",
+    "phone":"+210987002"
+},{
+    "id":7,
+    "firstname":"Ann",
+    "secondname":"Hurs",
+    "email":"anhurs@zyx.com",
+    "phone":"+98655542"
+}]
+

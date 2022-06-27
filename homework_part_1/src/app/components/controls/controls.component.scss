@@ -1,0 +1,35 @@
+.controls{
+    width:100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap:0.5em;
+    align-items: center;
+    padding-bottom: 0.5em;
+}
+.controls .select_all{
+  background-color:green;
+  color:white;
+  font-size:bold;
+}
+.controls .delete{
+ background-color:red;
+ color:white;
+ font-size:bold;
+}
+.controls>*{
+  margin-left: 1em;
+  border-radius: 2em;
+}
+.controls .search{
+  margin-right: 1em;
+}
+@media screen and(max-width:500px) {
+  .controls{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .controls .delete{
+    margin-right: 1em;
+  }
+}
