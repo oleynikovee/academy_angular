@@ -1,5 +1,4 @@
 import { Component,OnInit,OnDestroy } from '@angular/core';
-import { stringify } from 'querystring';
 import { Subscription } from 'rxjs';
 import { isChecked } from 'src/app/services/check.service';
 
@@ -171,7 +170,7 @@ export class UsersComponent implements OnInit {
     }
   }
   //-----------------------------------
-  //
+  //getNewUser->get new user from POST request
   private getNewUser(data:string){
     const newData=JSON.parse(data);
     let user={
@@ -185,6 +184,6 @@ export class UsersComponent implements OnInit {
     this.dataSource.push(user);
     this.printAll(this.dataSource);
   }
-  //
+  //--------------------------------------
 }
 

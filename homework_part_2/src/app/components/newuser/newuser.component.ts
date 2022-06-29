@@ -9,7 +9,6 @@ import { isChecked } from 'src/app/services/check.service';
 })
 export class NewuserComponent implements OnInit {
   myForm : FormGroup = new FormGroup({
-             
     "firstName": new FormControl("",[Validators.pattern("[A-Za-z]{2,}"),
     Validators.required]),
     "lastName": new FormControl("",[Validators.pattern("[A-Za-z]{2,60}"),
@@ -24,6 +23,7 @@ export class NewuserComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  //postNewUser->create new user and use POST fetch
   public postNewUser(){
     fetch('https://jsonplaceholder.typicode.com/posts', {
       method: 'POST',
@@ -32,23 +32,7 @@ export class NewuserComponent implements OnInit {
         "name": this.myForm.controls['firstName'].value,
         "username": this.myForm.controls['lastName'].value,
         "email": this.myForm.controls['userEmail'].value,
-        "address": {
-          "street": "Kulas Light",
-          "suite": "Apt. 556",
-          "city": "Gwenborough",
-          "zipcode": "92998-3874",
-          "geo": {
-            "lat": "-37.3159",
-            "lng": "81.1496"
-          }
-        },
         "phone":this.myForm.controls['userPhone'].value ,
-        "website": "hildegard.org",
-        "company": {
-          "name": "Romaguera-Crona",
-          "catchPhrase": "Multi-layered client-server neural-net",
-          "bs": "harness real-time e-markets"
-        }
       }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
@@ -57,4 +41,5 @@ export class NewuserComponent implements OnInit {
     .then((response) => response.json())
     .then((json) => this.isChecked.giveNewUser(JSON.stringify(json)))
   }
+  //------------------------------------------------------------------
 }
