@@ -1,0 +1,21 @@
+<form class="createUser" [formGroup]="myForm">
+    <div class="form-group">
+        <label>Ім'я</label>
+        <input class="form-control" name="name" formControlName="firstName" />
+    </div>
+    <div class="form-group">
+        <label>Призвище</label>
+        <input class="form-control" name="name" formControlName="lastName" />
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" name="email" formControlName="userEmail" />
+    </div>
+    <div class="form-group">
+        <label>Телефон</label>
+        <input class="form-control" name="phone" formControlName="userPhone" />
+    </div>
+</form>
+<button class="btn_create" (click)="postNewUser()">
+    Створити
+</button>

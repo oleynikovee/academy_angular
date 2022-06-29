@@ -1,0 +1,33 @@
+.createUser{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap:0.5em;
+    align-items:center;
+    padding-bottom: 0.5em;
+}
+.form-group{
+    width:80%;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:0.5em;
+    align-items:center;
+    padding-bottom: 0.5em; 
+}
+.form-group input{
+    border-radius: 2em;
+}
+.btn_create{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 2em;
+    background-color: rgb(127, 127, 182);
+}
+@media screen and (max-width:500px) {
+    .createUser{
+      grid-template-columns: repeat(2,1fr);
+    }
+}
