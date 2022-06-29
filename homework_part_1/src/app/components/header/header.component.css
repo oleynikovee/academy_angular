@@ -1,12 +1,12 @@
 .angular_name{
-    width: 100%;
-    text-align: center;
-    padding-top: 0.2em;
-    padding-bottom: 0.5em;
-    font-size:2em;
-    transform: skewY(-4deg);
-    color:#564a5f;
-    text-shadow:
-    #bfbaff 0.1em 0.1em,
-    #cfa7c5 0.2em 0.2em;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
+  font-size:2em;
+  transform: skewY(-4deg);
+  color:#564a5f;
+  text-shadow:
+  #bfbaff 0.1em 0.1em,
+  #cfa7c5 0.2em 0.2em;
 }
